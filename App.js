@@ -12,11 +12,5 @@ export default class Bananas extends Component {
   }
 }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
+// skip this line if using Create React Native App
+AppRegistry.registerComponent('reactNativeTrial', () => Bananas);
